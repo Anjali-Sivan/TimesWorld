@@ -1,0 +1,81 @@
+.signin-heading {
+  color: #3d3d3d;
+  font-family: "Noto Sans";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px; /* 131.25% */
+}
+
+.sub-div {
+  display: flex;
+}
+
+.sub-heading {
+  color: #3d3d3d;
+  font-family: "Noto Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 162.5% */
+}
+
+.link {
+  color: #587fff;
+  font-family: "Noto Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.input-field {
+  border: 2px solid #3e3e3e;
+  background: #fff;
+  height: 48px;
+  width: 100%;
+  /* border-radius: 0px; */
+}
+
+.sign-in-button {
+  background-color: #3c3c3c;
+  height: 48px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  width: 100%;
+}
+
+.horizontal-rule-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.horizontal-rule {
+  flex-grow: 1;
+  border-top: 2px solid #cfcfcf;
+}
+
+.text-center {
+  color: #3d3d3d;
+  text-align: center;
+  font-family: "Noto Sans";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0.39px;
+  padding: 0 10px; /* Adjust padding as needed */
+}
+
+.icon-row {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}

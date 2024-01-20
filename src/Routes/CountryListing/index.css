@@ -1,0 +1,64 @@
+.country-class{
+    height: 100vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-navbar {
+    background-color:white;
+  }
+
+.ml-auto {
+    margin-left: auto !important;
+}
+/* MyNavbar.css */
+
+.custom-navbar {
+    background: #FBFBFB;
+  }
+  
+  .brand-heading {
+    color: #3D3D3D;
+    font-family: "Noto Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+  }
+  
+  .menu-item {
+    color: #8B8B8B;
+    font-family: "Noto Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    padding-bottom: 5px; /* Add spacing between text and underline */
+  }
+  
+  .menu-item:hover,
+  .menu-item.selected {
+    color: #3D3D3D;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .menu-item::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #3D3D3D;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .menu-item:hover::after,
+  .menu-item.selected::after {
+    width: 100%;
+  }
+  
+  
+  

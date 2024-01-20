@@ -1,0 +1,1 @@
+export const FETCH_COUNTRIES = "https://restcountries.com/v2/all?fields=name,region,flag";
